@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,m,n,s=0;
+  cout<<"Enter number\n";
+  cin>>a;
+  n=a;
+  m=n%10;
+  if(a%7==0)
+    cout<<"It is a buzz number";
+  else if(m==7)
+    cout<<"It is a buzz number";
+  else
+    cout<<"It is not an buzz number";
+}
