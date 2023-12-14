@@ -1,0 +1,11 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+  float a;
+  cout<<"Enter a number\n";
+  cin>>a;
+  cout<<"Floor of the given number is "<<floor(a)<<endl;
+  cout<<"Ceil of the given number is "<<ceil(a)<<endl;
+}
