@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a,b=0,i=1,r,n,m;
+  cout<<"Enter number"<<endl;
+  cin>>a;
+  n=a;
+  do
+  {
+   m=n%10;
+    r=r*10+m;
+    n=n/10;
+  }while(n>0);
+  if(a==r)
+    cout<<a<<" is a palindrome";
+  else 
+    cout<<a<<" is not palindrome";
+  return 0;
+}
