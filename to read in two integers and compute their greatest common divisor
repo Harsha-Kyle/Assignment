@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    using namespace std;
+
+    int a, b;
+    cout << "Enter the first integer (a): "; cin >> a;
+    cout << "Enter the second integer (b): "; cin >> b;
+
+    while (b != 0) {
+        int t = b;
+        b = a % b;
+        a = t;
+    }
+
+    cout << "The GCD of a and b is: " << a << endl;
+
+    return 0;
+}
