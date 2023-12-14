@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a,b=0,i=1;
+  cout<<"Enter number"<<endl;
+  cin>>a;
+  do
+  {
+    if(a%i==0)
+    {
+      b++;
+    }
+    i++;
+  }while(i!=a+1);
+  if(b==2)
+    cout<<a<<" is a prime number";
+  else 
+    cout<<a<<" is not prime";
+  return 0;
+}
