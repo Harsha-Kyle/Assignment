@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,n,m,s=0,i=1;
+  cout<<"Enter a number\n";
+  cin>>a;
+  n=a;
+ do
+  {
+    if(a%i==0)
+    {
+      b++;
+      s=s+i;
+    }
+    i++;
+  }while(i!=a);
+  if(a<s)
+    cout<<a<<" is a abundant number";
+  else
+    cout<<a<<" is not a abundant number";
+}
